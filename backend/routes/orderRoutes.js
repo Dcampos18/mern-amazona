@@ -8,6 +8,17 @@ import Product from '../models/productModel.js';
 const orderRouter = express.Router();
 
 orderRouter.get(
+    '/',
+    isAuth,
+    isAdmin,
+    expressAsyncHandler(async (req, res) => {
+        const orders = await Order.find().populate('user', 'name');
+        res.send(orders);
+    })
+);
+
+
+orderRouter.get(
     '/summary',
     isAuth,
     isAdmin,
