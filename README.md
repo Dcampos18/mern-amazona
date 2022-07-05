@@ -6,7 +6,7 @@ Welcome to my React and Node project to build a fully-functional e-commerce webs
 
 ## Demo Website
 
-- 👉 Heroku : [https://mern-amazona-dc.herokuapp.com/](https://react-amazona.herokuapp.com)
+- 👉 Heroku : [https://mern-amazona-dc.herokuapp.com/](https://mern-amazona-dc.herokuapp.com/)
 
 ## Technologies, Skills and Tools used to build this e-commerce website
 
